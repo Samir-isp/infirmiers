@@ -1,0 +1,303 @@
+
+/*********************************************Mise en forme de la page *********************************************/
+
+#entete
+{   	display: none;
+}
+
+#sous_entete
+{
+   	display: none;
+}
+
+#contenu
+{
+   	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#menu_gauche
+{
+   display: none;
+}
+
+
+#menu_droit
+{
+   display: none;
+}
+
+#corps
+{
+   margin-left: 0px; /* Une marge à gauche pour pousser le corps, afin qu'il ne passe plus sous le menu */
+   margin-bottom: 0px; /* Ca c'est pour éviter que le corps colle trop au pied de page en-dessous */
+   padding: 0px; /* Pour éviter que le texte à l'intérieur du corps ne colle trop à la bordure */
+   
+   color: #000000; /* Couleur de texte du corps */
+   background-color: #FFFFFF; /* Une couleur de fond pour le corps */
+   
+   border: 0px solid black
+}
+
+#corps_modules
+{
+   margin-left: 0px; /* Une marge à gauche pour pousser le corps, afin qu'il ne passe plus sous le menu */
+   margin-right: 0px; /* Une marge à gauche pour pousser le corps, afin qu'il ne passe plus sous le menu */
+   margin-bottom: 0px; /* Ca c'est pour éviter que le corps colle trop au pied de page en-dessous */
+   padding: 0px; /* Pour éviter que le texte à l'intérieur du corps ne colle trop à la bordure */
+   
+   color: #000000; /* Couleur de texte du corps */
+   background-color: #FFFFFF; /* Une couleur de fond pour le corps */
+    
+   border: 0px solid black;
+	background-color: #FFFFFF;
+
+}
+
+
+#bas_de_contenu
+{
+   	display: none;
+}
+
+
+#haut_de_pied_de_page
+{
+       display: none;
+}
+
+
+#pied_de_page
+{
+	display: none;
+}
+
+
+
+/*********************************************Mise en forme des TEXTES *********************************************/
+
+.texte {
+	font-family: Times New Roman, Times, serif;
+	font-size: 11pt;
+	text-align: justify;
+	color: #000000;
+}
+
+.textec {
+	font-family: Times New Roman, Times, serif;
+	font-size: 11pt ;
+	text-align: center;
+	color: #000000;
+}
+
+
+.texte_table {
+	font-family: Times New Roman, Times, serif;
+	font-size: 11pt ;
+	text-align: justify;
+	color: #000000;
+	text-indent:5px;
+}
+
+.texte9px {
+	font-family: Times New Roman, Times, serif;
+	font-size: 9pt ;
+	text-align: justify;
+	color: #000000;
+}
+
+.texte10px {
+	font-family: Times New Roman, Times, serif;
+	font-size: 10pt ;
+	text-align: justify;
+	color: #000000;
+}
+
+.texte11px {
+	font-family: Times New Roman, Times, serif;
+	font-size: 11pt ;
+	text-align: justify;
+	color: #000000;
+}
+
+.texte12px {
+	font-family: Times New Roman, Times, serif;
+	font-size: 12pt ;
+	text-align: justify;
+	color: #000000;
+}
+
+.texte13px {
+	font-family: Times New Roman, Times, serif;
+	font-size: 13pt ;
+	text-align: justify;
+	color: #000000;
+}
+
+.maj {
+	font-family: Times New Roman, Times, serif;
+	font-size: 9pt ;
+	text-align : right;
+	color: #000000;
+}
+
+
+/****************** Mise en forme des titres ******************/
+
+.titre1 {
+    font-family: Times New Roman, Times, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14pt;
+    color: #000000;
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+.titre2 {
+    font-family: Times New Roman, Times, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12pt;
+    color: #000000;
+    text-decoration: underline;
+    text-align: left;
+}
+
+.titre3 {
+    font-family: Times New Roman, Times, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11pt;
+    color: #000000;
+    text-decoration: underline;
+    text-align: left;
+}
+
+.titre4 {
+    font-family: Times New Roman, Times, serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 11pt;
+    color: #000000;
+    text-decoration: underline;
+    text-align: left;
+}
+
+.titre5 {
+    font-family: Times New Roman, Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11pt;
+    color: #000000;
+    text-decoration: underline;
+    text-align: left;
+}
+
+
+/****************** Mise en forme des listes ******************/
+
+
+.li1{
+    font-family: Times New Roman, Times, serif;;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11pt;
+    color: #000000;
+    text-decoration: none;
+    text-align: justify;
+    margin-left:10px;
+   list-style-type: disc;
+}
+
+.li2 {
+    font-family: Times New Roman, Times, serif;;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11pt;
+    color: #000000;
+    text-decoration: none;
+    text-align: justify;
+    margin-left:30px;
+   list-style-type: circle;
+}
+
+.li3 {
+    font-family: Times New Roman, Times, serif;;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11pt;
+    color: #000000;
+    text-decoration: none;
+    text-align: justify;
+    margin-left:50px;
+   list-style-type: square;
+}
+
+.li4{
+    font-family: Times New Roman, Times, serif;;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11pt;
+    color: #000000;
+    text-decoration: none;
+    text-align: justify;
+    margin-left:70px;
+   list-style-type: disc;
+}
+
+.li5 {
+    font-family: Times New Roman, Times, serif;;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11pt;
+    color: #000000;
+    text-decoration: none;
+    text-align: justify;
+    margin-left:90px;
+   list-style-type: circle;
+}
+
+.li6 {
+    font-family: Times New Roman, Times, serif;;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11pt;
+    color: #000000;
+    text-decoration: none;
+    text-align: justify;
+    margin-left:20px;
+   list-style-type: square;
+}
+
+
+/****************** Mise en forme des liens ******************/
+
+a:link {
+	color: #C0C0C0;
+	text-decoration: underline;
+	font-variant: normal;
+	font-family: Times New Roman, Times, serif;
+	font-size: 11pt;
+	text-align: justify;
+}
+ a:visited {
+	color: #C0C0C0;
+	text-decoration: underline;
+	font-variant: normal;
+	font-family: Times New Roman, Times, serif;
+	font-size: 11pt ;
+	text-align: justify;
+}
+a:hover {
+	color: #C0C0C0;
+	text-decoration: underline;
+	font-variant: normal;
+	font-family: Times New Roman, Times, serif;
+	font-size: 11pt ;
+	text-align: justify;
+}
