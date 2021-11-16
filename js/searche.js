@@ -7,20 +7,20 @@ function closeSearch() {
 }
 
 function filterContent(elmnt) {
-  var x, i, val, show, showh3, showbr;
+  var x, i, val, show, showh2, showbr;
   val = elmnt.value;
   x = document.getElementById("leftmenuinnerinner").getElementsByTagName("*");
   for (i = 1; i < x.length; i++) {
     if (x[i].tagName == "H2") {
-      if (showh3) {
+      if (showh2) {
         if (show == false) {
-          showh3.style.display = "none";
+          showh2.style.display = "none";
         } else {
-          showh3.style.display = "block";
+          showh2.style.display = "block";
         }
       }
       show = false;
-      showh3 = x[i];
+      showh2 = x[i];
     }
     if (x[i].tagName == "BR") {
       if (showbr) {
@@ -40,11 +40,11 @@ function filterContent(elmnt) {
         show = true;
       }
     }
-    if (showh3) {
+    if (showh2) {
       if (show == false) {
-        showh3.style.display = "none";
+        showh2.style.display = "none";
       } else {
-        showh3.style.display = "block";
+        showh2.style.display = "block";
       }
     }      
   }
