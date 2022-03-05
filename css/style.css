@@ -753,8 +753,7 @@ tr:not(:last-of-type) td {
   color: #ffc107;
 }.red {
   color: #f44336;
-}[mhtn=container] {
-  max-width: 700px;
+}
 }[canvas=container] [mhtn=row]:not(.no-margin) {
   margin-top: 0px;
   margin-bottom: 20px;
