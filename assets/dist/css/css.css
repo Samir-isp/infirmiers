@@ -1,0 +1,148 @@
+
+body {
+  min-height: 75rem;
+  padding-top: 4.5rem;
+}
+    
+
+.sidenav {
+  height: 80%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 20%;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidenavR {
+  height: 80%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 20%;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 0px 0px 0px 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav li {
+  padding: 0px 0px 0px 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #00ff5a;
+  display: block;
+  transition: 0.3s;
+}
+.sidenavR li {
+  padding: 0px 0px 0px 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #00ff5a;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+
+
+.sidenavR a {
+  padding: 0px 0px 0px 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenavR a:hover {
+  color: #f1f1f1;
+}
+
+.sidenavR .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+	overflow:hidden;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+}
+
+
+.overlay {
+    height: 80%;
+    width: 80%;
+    position: fixed;
+    z-index: 1;
+    top: 10%;
+    left: 10%;
+	overflow:hidden;
+
+}
+
+.overlay-content {
+    position: relative;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: auto;
+	font-size: larger;
+}
+
+.overlay .closebtn2 {
+    position: absolute;
+    top: -%;
+    right: 3%;
+    font-size: 85px;
+    cursor: pointer;
+    color: #ff0000;
+}
+
+input{
+  font-size : 20px;
+  color: darkblue;
+  text-align: center;
+}
+
